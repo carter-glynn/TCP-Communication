@@ -1,16 +1,14 @@
 # TCP-Communication <br>
 
 ## Goal <br>
- - Modify existing Microsoft TCP server code
+ - Modify existing Microsoft TCP server and client code
  - Understand the workings of TCP and Telnet
+ - Connect TCP server to client
+ - Input data to database table from client
+ - Display data on PHP webpage
 
 ## Description <br>
-Create a TCP server to receive data. The server receives strings delimited by &. The program should display each received string on a separate line on the console. <br>
-For example, if the received string is:<br><br>
-abcdef&qwerty&123, <br>
-the output is:<br><br>
-abcdef<br.>
-qwerty<br>
-123<br><br>
-The program prints each string as soon as it is complete (that is, an ‘&’ is found). <br>
-Test the program by sending data using “Telnet.”
+Create a TCP client and a TCP server. The programs should be console applications. <br><br>
+The client lets a user input data for a database table that is used to display data on a PHP-based web-page. <br><br>
+Client connects to TCP server and sends this data. The TCP server stores this data in the database. <br><br>
+Verify that the data has been successfully stored through displaying it on the web-page.
